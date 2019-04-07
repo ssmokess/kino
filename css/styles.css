@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.header{
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: space-between;
+    /* width: 100%; */
+    background-color: #061420; 
+    color: #fff;
+    /* font-size: 0; */
+
+
+
+}
+.title{
+    text-transform: uppercase;
+}
+
+.left{
+    display: flex;
+    align-items: center;
+}
+/* .buttons{
+    display: flex;
+
+} */
+.right{
+    display: flex;
+    align-items: center;
+    
+}
+.city-btn,
+.user-btn{
+    border:none;
+    background-color: transparent;
+}
+/* .main-img{
+    display: flex;
+} */
